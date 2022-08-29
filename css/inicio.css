@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+body{
+    /*background-color: #ededed;*/
+    background-image: url(https://i.pinimg.com/originals/4b/fd/bc/4bfdbcb96f17d85ff74f523870d1c8fe.jpg);
+    background-size: cover;
+}
+nav{
+    padding: 50px;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #fff;
+    font-size: 50px;
+    text-align: center;
+
+    background-size: cover;
+    background-image: url(http://dslv9ilpbe7p1.cloudfront.net/f0agv6ng84pkREajD3MeAQ_store_banner_image.jpeg);
+}
+
+.btn{
+    text-align: center;
+    width: 100px;
+    height: 70px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#btnStart{
+    background: greenyellow;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btnStart img{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+#btnDetener{
+    background: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#btnDetener img{
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
+
+.contenedor{
+
+    width:90%;
+    
+    padding: 50px;
+    margin: 40px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 12px #ccc;
+    /*background-color: #fff;*/
+    background-color: antiquewhite;
+    
+    font-size: 30px;
+}
+
+.seccion_botones{
+    display: inline-flex;
+    float: left;
+    
+    width:10%;
+    height: 110px;
+    padding: 50px;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #fff;
+    font-size: 30px;
+}
+
+.menu{
+    margin-left: 100px;
+    display: inline-block;
+    width:70%;
+    height: 90%;
+    padding: 50px;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #fff;
+    font-size: 30px;
+}
+
+.respuesta{
+    color:red;
+}
+
+.resultado{
+    width:30%;
+    padding: 50px;
+    margin: 40px;
+    margin: 50px auto;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: antiquewhite;;
+    font-size: 30px;
+}
+
+#modal{
+    background-color: black;
+    text-align: center;
+    margin:auto auto;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+#modal::backdrop{
+    background-color: rgba(0,0,0,.55);
+}
+
+#modalFecha{
+    margin:auto auto;
+    text-align: center;
+    max-width: 1000px;
+    font-size: 90px;
+    border-radius:7px;
+    border:none;
+}
+
+#modalFecha::backdrop{
+    background-color: rgba(0,0,0,.55);
+}
+
+@font-face {
+    font-family: NuevaFuente;
+    src: url(DS-DIGIT.TTF);
+}

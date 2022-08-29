@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Gothic;
+}
+
+body{
+    background-color: antiquewhite;
+}
+nav{
+    padding: 50px;
+    box-shadow: 0px 0px 12px #ccc;
+    background-color: #fff;
+    font-size: 50px;
+    text-align: center;     
+    background-size: cover;
+    background-image: url(http://dslv9ilpbe7p1.cloudfront.net/f0agv6ng84pkREajD3MeAQ_store_banner_image.jpeg);
+    
+}
+h2{
+    font-size: 70px;
+    text-align: center;
+    font-family: Century;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.tabla{
+    text-align: center;
+    margin: 10px auto;
+    background-color: greenyellow;
+}
+
+td{
+    background-color: white;
+}
+
+.btn{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn button{
+    width: 320px;
+    height: 50px;
+    font-size: 30px;
+}
