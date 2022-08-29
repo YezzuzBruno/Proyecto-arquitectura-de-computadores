@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/index.css">
+    </head>
+    <body>
+        <nav>
+            <h1 style="font-size:110px;letter-spacing:10px;">Audio site</h1>
+        </nav>
+        <div class="espacio_botones">
+                <button class="btn" id="btnStartRecord"><img src="img/microphone-solid.svg" alt="boton_activar_micro"></button>
+                <button class="btn" id="btnStopRecord"><img src="img/microphone-slash-solid.svg" alt="boton_desactivar_micro"></button>
+                
+        </div>
+
+        <div class="contenedor">
+            <h2>Hola bienvenido(a)</h2>
+            <p>Cual es tu nombre?</p>
+            <input id="nombre" type="text"/>
+            <p>Cuántos años tienes?</p>
+            <input id="edad" type="text"/>
+            <p>De que país eres?</p>
+            <input id="pais" type="text"/>
+            <div class="btnFinal">
+                <button id="btnCrearPerfil">Crear perfil</button>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>

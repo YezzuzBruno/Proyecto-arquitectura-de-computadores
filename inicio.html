@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Inicio</title>
+        <link rel="stylesheet" href="css/inicio.css">
+    </head>
+    <nav>
+        <h1 style="font-size:110px;letter-spacing:10px;">Audio site</h1>
+    </nav>
+    <body>
+        <div class="contenedor">
+            <div class="seccion_botones">
+                <button id="btnStart" class="btn"><img src="img/microphone-solid.svg" alt="boton_activar_micro"></button>
+                <button id="btnDetener" class="btn"><img src="img/microphone-slash-solid.svg" alt="boton_desactivar_micro"></button>
+            </div>
+            <div class="menu">
+                <h1>MENÚ</h1>
+                <p>1. Comparador de frases</p>
+                <p>2. Qué hora es?</p>
+                <p>3. Qué fecha estamos?</p>
+                <p>4. Tres en raya.</p>
+            </div>
+        </div>
+        <div class="resultado" id="resultado">
+            <p style="color:red;text-align: center;" id="opcion"></p>
+            <p>Opción elegida:</p>
+            <p></p>
+        </div>
+        <dialog id="modal">
+            
+        </dialog>
+        <dialog id="modalFecha">
+            <div style="background:red;border-radius: 7px 7px 0 0;">
+                <!--aqui va el mes-->
+                <p id="txt_mes" style="color:white; padding:10px;padding-left: 50px;padding-right: 50px;letter-spacing: 3px;"></p>
+            </div>
+            <p id="txt_dia" style="font-size:150px;"></p>
+        </dialog>
+            
+        <script src="js/inicio.js"></script>
+    </body>
+</html>
